@@ -9,3 +9,4 @@ PHP Code to merge different PDFs using several libraries in order to maintain an
 
 TODO
 * Insert appropriate links
+* Insert try--catch blocks to catch exceptions
