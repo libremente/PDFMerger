@@ -13,8 +13,8 @@
  * If you put pages 12-14 before 1-5 then 12-15 will be placed first in the output.
  * 
  * === Originally uses: ===
- * Uses FPDI 1.3.1 from Setasign
- * Uses FPDF 1.6 by Olivier Plathey with FPDF_TPL extension 1.1.3 by Setasign
+ * FPDI 1.3.1 from Setasign
+ * FPDF 1.6 by Olivier Plathey with FPDF_TPL extension 1.1.3 by Setasign
  *
  * === This version uses: ====
  * FPDI v1.4.4 
