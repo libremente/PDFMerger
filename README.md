@@ -1,5 +1,7 @@
 #PDFMerger with ANNOTATIONS for PHP
 
+You created several PDFs files and after merging them with some PDFMerger you lost the links in the final file? By means of this combination of FPDI + FPDF and TCPDF it's possible to merge and maintain the links!
+
 Fork of PDFMerger created by ```Jarrod Nettles``` December 2009 ```jarrod@squarecrow.com```.
 
 This modified version uses the following:  
