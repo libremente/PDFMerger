@@ -1,31 +1,32 @@
 <?php
-
 /**
- *  PDFMerger created by Jarrod Nettles December 2009
- *  jarrod@squarecrow.com
- *
- *  v1.0
- *
+ *  Original PDFMerger created by Jarrod Nettles December 2009  jarrod@squarecrow.com
+ *  This version has been modified by surfingtime
+ *  
+ *  v1.0.1
+ * 
  * Class for easily merging PDFs (or specific pages of PDFs) together into one. Output to a file, browser, download, or return as a string.
  * Unfortunately, this class does not preserve many of the enhancements your original PDF might contain. It treats
  * your PDF page as an image and then concatenates them all together.
- *
+ * 
  * Note that your PDFs are merged in the order that you provide them using the addPDF function, same as the pages.
  * If you put pages 12-14 before 1-5 then 12-15 will be placed first in the output.
- *
- *
- * Originally uses:
+ * 
+ * === Originally uses: ===
  * Uses FPDI 1.3.1 from Setasign
+ * Uses FPDF 1.6 by Olivier Plathey with FPDF_TPL extension 1.1.3 by Setasign
  *
- * But in this modified version uses
- * Uses FPDI v1.4.4 + FPDF_TPL v1.2.3 in order to use the annotations (render links)
- * By using fpdi2tcpdf it is possible to use FPDF by extending TCPDF!
- *
- * Both of these packages are free and open source software, bundled with this class for ease of use.
- * They are not modified in any way. PDFMerger has all the limitations of the FPDI package - essentially, it cannot import dynamic content
- * such as form fields, links or page annotations (anything not a part of the page content stream).
- *
+ * === This version uses: ====
+ * FPDI v1.4.4 
+ * FPDF_TPL v1.2.3 
+ * in order to provide the possibility of rendering annotations (links) inside the PDF
+ * By using fpdi2tcpdf it is possible to use FPDF by extending TCPDF (see fpdi2tcpdf_bridge.php)
+ * 
+ * Both of these packages are free and open source software, bundled with this class for ease of use. 
+ * They are not modified in any way. 
+ * 
  */
+
 class PDFMerger
 {
     private $_files; //['form.pdf']  ["1,2,4, 5-19"]
