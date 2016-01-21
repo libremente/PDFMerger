@@ -18,13 +18,13 @@ include 'PDFMerger.php';
 
 $pdf = new PDFMerger;
 
-$pdf->addPDF('samplepdfs/one.pdf', '1, 3, 4');
-$pdf->addPDF('samplepdfs/two.pdf', '1-2');
+$pdf->addPDF('samplepdfs/one.pdf', '1, 3, 4'); // with links
+$pdf->addPDF('samplepdfs/two.pdf', '1-2'); 
 $pdf->addPDF('samplepdfs/three.pdf', 'all');
 
 $pdf->merge('file', 'samplepdfs/test.pdf'); // generate the file
-
 $pdf->merge('download', 'samplepdfs/test1.pdf'); // force download 
 
+// both 'test.pdf' and 'test1.pdf' will have clickable links 
 // REPLACE 'file' WITH 'browser', 'download', 'string', or 'file' for output options
 ```
