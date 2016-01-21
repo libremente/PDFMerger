@@ -28,3 +28,6 @@ $pdf->merge('download', 'samplepdfs/test1.pdf'); // force download
 // both 'test.pdf' and 'test1.pdf' will have clickable links 
 // REPLACE 'file' WITH 'browser', 'download', 'string', or 'file' for output options
 ```
+
+# TODO
+* review licensing...
