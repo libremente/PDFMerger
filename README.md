@@ -30,4 +30,5 @@ $pdf->merge('download', 'samplepdfs/test1.pdf'); // force download
 ```
 
 # TODO
-* review licensing...
+* Currently it's https://pdfmerger.codeplex.com/license -> GPLv2
+* ~~Ask jarrod about this ~~
