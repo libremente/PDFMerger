@@ -30,6 +30,6 @@ $pdf->merge('download', 'samplepdfs/test1.pdf'); // force download
 ```
 
 ### Licensing
-* This software has been released under the terms of a MIT License from creator. Also this version of the code uses the same MIT license.
-* FPDI is released under Apache License version 2.0, and the copyright 2004-2013 belongs to Setasign - Jan Slabon
-* TCPDF is released under a GNU-LGPL v3 license, and the Copyright (C) 2002-2014 belongs to Nicola Asuni
+* This software has been released under the terms of a MIT License from the creator in 2009. Also this modified version of the code is released under the same MIT license.
+* FPDI is released under Apache License version 2.0, and the copyright 2004-2013 belongs to Setasign - Jan Slabon.
+* TCPDF is released under a GNU-LGPL v3 license, and the Copyright (C) 2002-2014 belongs to Nicola Asuni.
