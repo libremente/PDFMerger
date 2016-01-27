@@ -1,5 +1,3 @@
-* This software is not meant for release but just for my personal usage 
-
 #PDFMerger with ANNOTATIONS for PHP
 
 You created several PDFs files and after merging them with some PDFMerger you lost the links in the final file? By means of this combination of FPDI + FPDF and TCPDF it's possible to merge and maintain the links!
@@ -31,7 +29,7 @@ $pdf->merge('download', 'samplepdfs/test1.pdf'); // force download
 // REPLACE 'file' WITH 'browser', 'download', 'string', or 'file' for output options
 ```
 
-# TODO
-* SOLVE THE LICENSING CONFLICT 
-* Currently it's https://pdfmerger.codeplex.com/license -> GPLv2
-* ~~Ask jarrod about this ~~
+### Licensing
+* This software has been released under the terms of a MIT License from creator. Also this version of the code uses the same MIT license.
+* FPDI is released under Apache License version 2.0, and the copyright 2004-2013 belongs to Setasign - Jan Slabon
+* TCPDF is released under a GNU-LGPL v3 license, and the Copyright (C) 2002-2014 belongs to Nicola Asuni
