@@ -1,8 +1,7 @@
-#PDFMerger with ANNOTATIONS for PHP
+# PDFMerger with ANNOTATIONS for PHP
 
-You created several PDFs files and after merging them with some PDFMerger you lost the links in the final file? By means of this combination of FPDI + FPDF and TCPDF it's possible to merge and maintain the links!
+You created several PDFs files and after merging them with some `PDFMerger` you've lost the links in the resulting file? By means of this combination of `FPDI + FPDF` and `TCPDF` it's possible to merge and maintain the links!
 
-Fork of PDFMerger created by ```Jarrod Nettles``` December 2009 ```jarrod@squarecrow.com```.
 
 This modified version uses the following:  
 
@@ -12,7 +11,7 @@ This modified version uses the following:
 
 In this way it is possible to *maintain* annotations like e.g. *links* inside a PDF document and browse it correctly.
 
-### Example Usage
+## Example Usage
 ```php
 include 'PDFMerger.php';
 
@@ -29,7 +28,15 @@ $pdf->merge('download', 'samplepdfs/test1.pdf'); // force download
 // REPLACE 'file' WITH 'browser', 'download', 'string', or 'file' for output options
 ```
 
+## Author 
+Fork of PDFMerger created by `Jarrod Nettles` December 2009 `<jarrod@squarecrow.com>`.
+This version is maintained by `libremente` <surf [AT] libremente [DOT] eu>. 
+
 ### Licensing
-* This software has been released under the terms of a MIT License from the creator in 2009. Also this modified version of the code is released under the same MIT license.
-* FPDI is released under Apache License version 2.0, and the copyright 2004-2013 belongs to Setasign - Jan Slabon.
-* TCPDF is released under a GNU-LGPL v3 license, and the Copyright (C) 2002-2014 belongs to Nicola Asuni.
+* This software has been released under the terms of a MIT License from the
+  creator in 2009. Also this modified version of the code is released under the
+  same MIT license.
+* FPDI is released under Apache License version 2.0, and the copyright
+  2004-2013 belongs to Setasign - Jan Slabon.
+* TCPDF is released under a GNU-LGPL v3 license, and the Copyright (C)
+  2002-2014 belongs to Nicola Asuni.
