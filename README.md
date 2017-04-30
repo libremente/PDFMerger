@@ -1,6 +1,9 @@
 # PDFMerger with ANNOTATIONS for PHP
 
-You created several PDFs files and after merging them with some `PDFMerger` you've lost the links in the resulting file? By means of this combination of `FPDI + FPDF` and `TCPDF` it's possible to merge and maintain the links!
+You created several PDFs files and after merging them with some PDF merger
+you've lost the hyperlinks in the resulting file? By means of this library
+which exploits a combination
+of `FPDI + FPDF` and `TCPDF` it's possible to merge and maintain the links!
 
 
 This modified version uses the following:  
@@ -9,7 +12,8 @@ This modified version uses the following:
 * FPDF_TPL v1.2.3
 * Using fpdi2tcpdf it is possible to use FPDF by extending TCPDF
 
-In this way it is possible to *maintain* annotations like e.g. *links* inside a PDF document and browse it correctly.
+In this way it is possible to *maintain* annotations like e.g. *links* inside
+a PDF document and browse it correctly.
 
 ## Example Usage
 ```php
