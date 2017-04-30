@@ -1,9 +1,9 @@
 # PDFMerger with ANNOTATIONS for PHP
 
-You created several PDFs files and after merging them with some PDF merger
-you've lost the hyperlinks in the resulting file? By means of this library
+You've created several PDF files and after merging them with some PDF merger
+you've lost the hyperlinks in the resulting file? By means of this PHP library
 which exploits a combination
-of `FPDI + FPDF` and `TCPDF` it's possible to merge and maintain the links!
+of `FPDI + FPDF` and `TCPDF`, it's possible to merge and maintain the links!
 
 
 This modified version uses the following:  
@@ -33,7 +33,7 @@ $pdf->merge('download', 'samplepdfs/test1.pdf'); // force download
 ```
 
 ## Author 
-Fork of PDFMerger created by `Jarrod Nettles` December 2009 `<jarrod@squarecrow.com>`.
+Fork of PDFMerger created by `Jarrod Nettles` December 2009 `<jarrod@squarecrow.com>`.  
 This version is maintained by `libremente` <surf [AT] libremente [DOT] eu>. 
 
 ### Licensing
