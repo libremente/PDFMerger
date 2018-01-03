@@ -1,38 +1,15 @@
 <?php
 /**
- * Original PDFMerger created by Jarrod Nettles December 2009  jarrod@squarecrow.com
- * This version has been modified by surfingtime
+ *
+ * Class for easily merging PDFs (or specific pages of PDFs) together into one.
+ * Output to a file, browser, download, or return as a string.  Unfortunately,
+ * this class does not preserve many of the enhancements your original PDF
+ * might contain. It treats your PDF page as an image and then concatenates
+ * them all together.
  * 
- * v1.0.1
- * 
- * The MIT License (MIT)
- *
- * Copyright (c) 2016
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in all
- * copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
- * SOFTWARE.
- *
- * Class for easily merging PDFs (or specific pages of PDFs) together into one. Output to a file, browser, download, or return as a string.
- * Unfortunately, this class does not preserve many of the enhancements your original PDF might contain. It treats
- * your PDF page as an image and then concatenates them all together.
- * 
- * Note that your PDFs are merged in the order that you provide them using the addPDF function, same as the pages.
- * If you put pages 12-14 before 1-5 then 12-15 will be placed first in the output.
+ * Note that your PDFs are merged in the order that you provide them using the
+ * addPDF function, same as the pages.  If you put pages 12-14 before 1-5 then
+ * 12-15 will be placed first in the output.
  * 
  * === Originally uses: ===
  * FPDI 1.3.1 from Setasign
@@ -41,10 +18,12 @@
  * === This version uses: ====
  * FPDI v1.4.4 
  * FPDF_TPL v1.2.3 
- * in order to provide the possibility of rendering annotations (links) inside the PDF
- * By using fpdi2tcpdf it is possible to use FPDF by extending TCPDF (see fpdi2tcpdf_bridge.php)
+ * in order to provide the possibility of rendering annotations (links) inside
+ * the PDF By using fpdi2tcpdf it is possible to use FPDF by extending TCPDF
+ * (see fpdi2tcpdf_bridge.php)
  * 
- * Both of these packages are free and open source software, bundled with this class for ease of use. 
+ * Both of these packages are free and open source software, bundled with this
+ * class for ease of use. 
  * They are not modified in any way. 
  * 
  */
