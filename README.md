@@ -1,4 +1,4 @@
-# PDFMerger with ANNOTATIONS for PHP
+# PDFMerger with ANNOTATIONS for PHP 5
 
 You've created several PDF files and after merging them with some PDF merger
 you've lost the hyperlinks in the resulting file? By means of this PHP library
@@ -14,6 +14,8 @@ This modified version uses the following:
 
 In this way it is possible to *maintain* annotations like e.g. *links* inside
 a PDF document and browse it correctly.
+
+Tested with PHP 5.x.
 
 ## Example Usage
 ```php
