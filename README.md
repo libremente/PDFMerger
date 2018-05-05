@@ -1,4 +1,6 @@
 # PDFMerger with ANNOTATIONS for PHP 5
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Flibremente%2FPDFMerger.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Flibremente%2FPDFMerger?ref=badge_shield)
+
 
 You've created several PDF files and after merging them with some PDF merger
 you've lost the hyperlinks in the resulting file? By means of this PHP library
@@ -46,3 +48,6 @@ This version is maintained by `libremente` <surf [AT] libremente [DOT] eu>.
   2004-2013 belongs to Setasign - Jan Slabon.
 * TCPDF is released under a GNU-LGPL v3 license, and the Copyright (C)
   2002-2014 belongs to Nicola Asuni.
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Flibremente%2FPDFMerger.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Flibremente%2FPDFMerger?ref=badge_large)
