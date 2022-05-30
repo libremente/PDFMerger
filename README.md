@@ -1,4 +1,7 @@
 # PDFMerger with ANNOTATIONS for PHP 5
+| :warning: This repository is not maintained anymore, use it at your own risk
+:warning:
+
 
 You've created several PDF files and after merging them with some PDF merger
 you've lost the hyperlinks in the resulting file? By means of this PHP library
