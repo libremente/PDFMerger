@@ -1,5 +1,5 @@
 # PDFMerger with ANNOTATIONS for PHP 5
-| :warning: This repository is not maintained anymore, use it at your own risk
+:warning: This repository is not maintained anymore, use it at your own risk
 :warning:
 
 
